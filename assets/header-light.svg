@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 176" role="img" aria-labelledby="title desc">
+  <title id="title">Back-end e dados</title>
+  <desc id="desc">APIs, mensageria e cloud, com uma ilustração de componentes conectados.</desc>
+  <rect x=".5" y=".5" width="959" height="175" rx="12" fill="#f6f8fa" stroke="#d1d9e0"/>
+  <path d="M32 42v92" stroke="#116329" stroke-width="4"/>
+  <text x="56" y="83" fill="#1f2328" font-family="Segoe UI,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="-1.5">Back-end &amp; dados.</text>
+  <text x="58" y="119" fill="#52616b" font-family="Segoe UI,Arial,sans-serif" font-size="18" letter-spacing="2">APIs / MENSAGERIA / CLOUD</text>
+  <g fill="none" stroke="#d1d9e0" stroke-width="2">
+    <path d="M658 51h44q16 0 16 16v21h50M658 125h44q16 0 16-16V88M822 88h64"/>
+    <path d="M858 40v96M884 40v96M910 40v96" stroke-dasharray="2 10"/>
+  </g>
+  <g fill="#ffffff" stroke="#d1d9e0">
+    <rect x="588" y="30" width="70" height="42" rx="8"/>
+    <rect x="588" y="104" width="70" height="42" rx="8"/>
+    <rect x="768" y="61" width="54" height="54" rx="12"/>
+    <rect x="886" y="67" width="42" height="42" rx="9"/>
+  </g>
+  <g fill="none" stroke="#116329" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m611 43-8 8 8 8m24-16 8 8-8 8m-12-20-4 24"/>
+    <path d="M604 117h36m-36 8h28m-28 8h20"/>
+    <path d="m783 88 8 8 16-16m92 8h16"/>
+  </g>
+  <circle cx="718" cy="88" r="4" fill="#116329"/>
+</svg>
