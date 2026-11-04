@@ -1,50 +1,78 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img src="assets/header-light.svg" alt="Back-end e dados: APIs, mensageria e cloud." width="100%">
+</picture>
+
 # Pedro Benitah
 
-**Backend .NET Developer | Software Test Analyst | Architecture & Modernization**
+Desenvolvo APIs e integrações em **C#/.NET e Python**, com experiência em SQL e projetos acadêmicos de mensageria e AWS. Meu foco de evolução é **engenharia de dados**, conectando essa base de back-end ao trabalho com dados.
 
-Based in Belém, Pará, Brazil. I am pursuing a B.Sc. in Computer Science at CESUPA, with expected graduation in December 2026.
+Belém, Pará · Ciência da Computação no CESUPA, conclusão prevista para dezembro de 2026.
 
-## Professional profile
+[Projetos](#projetos-selecionados) · [Experiência](#experiência) · [LinkedIn](https://www.linkedin.com/in/pedro-benitah/) · [E-mail](mailto:pedrobenitah@gmail.com)
 
-I combine hands-on backend development with current software-quality work:
+## Projetos selecionados
 
-- **Backend development:** C#/.NET, Python, SQL, REST and gRPC APIs, RabbitMQ, and distributed-system integrations.
-- **Software quality:** manual functional testing, retesting, regression checks, defect evidence and traceability with Jira/Xray; Figma prototype validation; and one specific mobile automation flow created and executed with Maestro.
-- **Cloud:** academic projects using AWS EC2, S3, and CloudFormation.
-- **Architecture and modernization:** reverse engineering, dependency and integration analysis, data and risk mapping, technical documentation, and modernization roadmaps.
-- **AI-assisted analysis:** custom prompts and GitHub Copilot used in a traceable methodology to assess more than 100 repositories and more than 100 systems.
+### [01 / Processamento distribuído de imagens](https://github.com/Pedro-Benitah/AWS-CloudFormation)
 
-At **Deskcorp**, I work as a Software Test Analyst. Previously, at **AB Tecnologia**, I created the AI-assisted architecture-analysis methodology described above and supported historical QA activities with test cases, defect and incident analysis, Jira, and Postman. At **Laboratório Beneficente de Belém**, I contributed to internal C#/.NET systems, Visual Basic migration, testing, documentation, deployment, and user training.
+Recebe imagens por gRPC, distribui o processamento por uma fila e grava o resultado em escala de cinza no S3. Um projeto acadêmico para explorar a separação entre recebimento e processamento.
 
-Technologies evaluated in architecture work are not presented here as hands-on implementation skills.
+**Python · gRPC · RabbitMQ · EC2 · S3 · CloudFormation**  
+[Arquitetura e configuração](https://github.com/Pedro-Benitah/AWS-CloudFormation#arquitetura)
 
-## Selected projects
+### [02 / IoT Cloud Dashboard](https://github.com/Pedro-Benitah/iot-cloud-dashboard)
 
-- [Distributed image processing on AWS](https://github.com/Pedro-Benitah/AWS-CloudFormation) — producer-worker-client flow using Python, gRPC, RabbitMQ, EC2, S3, and CloudFormation.
-- [IoT Cloud Dashboard](https://github.com/Pedro-Benitah/iot-cloud-dashboard) — real-time sensor, gateway, microservice, actuator, and Flask dashboard flow using UDP, gRPC, RabbitMQ, and SSE.
-- [Portugol LL(1) Analyzer](https://github.com/Pedro-Benitah/PortugolDemo) — educational .NET 8 lexical analyzer and predictive parser with FIRST/FOLLOW calculation and CLI output modes.
+Integra sensores simulados, uma regra de controle e um painel de leituras em tempo real. Explora a comunicação entre serviços usando protocolos diferentes; o controle manual ainda tem limitações de integração.
 
-These repositories are educational or portfolio projects. Their READMEs distinguish validated behavior from limitations and do not claim automated coverage or production guarantees that were not verified.
+**Python · Flask · UDP · gRPC · RabbitMQ · SSE**  
+[Fluxo e limites do protótipo](https://github.com/Pedro-Benitah/iot-cloud-dashboard)
 
-## Python packages
+### [03 / Exploração de dados de churn](https://github.com/Pedro-Benitah/Analise_de_dados)
 
-Two educational packages were published on the [Benitas PyPI profile](https://pypi.org/user/Benitas/) in October 2022:
+Dashboard com filtros e visualizações para explorar cancelamento por plano, dispositivo e hábitos de escuta. Um estudo de leitura, agregação e visualização de dados com Pandas.
 
-- `LerEscreverInfo`
-- `gerarPalavraa`
+**Python · Pandas · Streamlit · Plotly · Jupyter**  
+[Aplicação](https://github.com/Pedro-Benitah/Analise_de_dados/blob/master/app.py) · [Notebook](https://github.com/Pedro-Benitah/Analise_de_dados/blob/master/Norm.ipynb)
 
-No adoption or active-maintenance metrics are claimed.
+### [04 / Analisador de Portugol](https://github.com/Pedro-Benitah/PortugolDemo)
 
-## Contact
+Analisador léxico e parser preditivo em linha de comando, com exibição de tokens, exportação CSV e acompanhamento de derivações. Um exercício de construção de linguagens e estruturas de dados.
 
-- [LinkedIn](https://www.linkedin.com/in/pedro-benitah/)
-- [Email](mailto:pedrobenitah@gmail.com)
-- [PyPI](https://pypi.org/user/Benitas/)
+**C# · .NET 8 · Análise léxica · Parser LL(1)**  
+[Código e exemplos](https://github.com/Pedro-Benitah/PortugolDemo)
 
----
+## Experiência
 
-## Em português
+- **Deskcorp — Analista de Testes, atualmente.** Testes funcionais manuais, retestes, regressão, evidências de defeitos e rastreabilidade em Jira/Xray; validação de protótipos no Figma. Também criei e executei um fluxo móvel específico com Maestro.
+- **AB Tecnologia — experiência anterior.** Engenharia reversa, análise de dependências, integrações, dados e riscos, documentação técnica e roadmaps de modernização. Estruturei uma metodologia de análise de arquitetura assistida por IA, com prompts customizados e GitHub Copilot. Também atuei com casos de teste, análise de defeitos e incidentes, Jira e Postman.
+- **Laboratório Beneficente de Belém — experiência anterior.** Desenvolvimento de sistemas internos em C#/.NET, migração de Visual Basic, testes, documentação, implantação e treinamento de usuários.
 
-Sou Desenvolvedor Backend .NET e Analista de Testes, com atuação prática em C#/.NET, Python, SQL, APIs REST/gRPC, RabbitMQ, AWS e sistemas distribuídos. Atualmente executo testes funcionais manuais, retestes e verificações de regressão, documento e acompanho defeitos e mantenho rastreabilidade em Jira/Xray. Também valido protótipos no Figma e criei e executei um fluxo móvel específico com Maestro.
+## Base técnica e direção
 
-Minha trajetória inclui engenharia reversa, análise de dependências, integrações, dados e riscos, documentação técnica e roadmaps de modernização. Na AB Tecnologia, estruturei uma metodologia assistida por IA com prompts customizados e GitHub Copilot para analisar mais de 100 repositórios e mais de 100 sistemas. O uso de Postman permanece associado a essa experiência histórica, não à função atual.
+- **Back-end:** C#/.NET, Python, SQL, APIs REST e gRPC, RabbitMQ e integrações.
+- **Cloud em projetos acadêmicos:** EC2, S3 e CloudFormation.
+- **Dados no portfólio:** leitura de CSV, exploração com Pandas e visualização interativa. Quero avançar para pipelines reproduzíveis, modelagem SQL e qualidade de dados.
+- **Qualidade e arquitetura:** rastreabilidade de testes, análise de sistemas e documentação de decisões técnicas.
+
+## Vamos conversar
+
+Tenho interesse em oportunidades de **back-end e engenharia de dados**, além de projetos de **APIs, integrações e automação com Python**. Para conversar sobre vagas ou escopo de um projeto, use o [LinkedIn](https://www.linkedin.com/in/pedro-benitah/) ou [pedrobenitah@gmail.com](mailto:pedrobenitah@gmail.com).
+
+<details>
+<summary>English overview</summary>
+
+I build APIs and integrations with C#/.NET and Python, with experience in SQL and academic projects using RabbitMQ, gRPC and AWS. I am developing my portfolio toward data engineering; my current public data project focuses on exploratory analysis with Pandas, Streamlit and Plotly.
+
+I currently work as a Software Test Analyst at Deskcorp. Previous experience includes architecture analysis and modernization at AB Tecnologia, and internal C#/.NET systems at Laboratório Beneficente de Belém. Based in Belém, Brazil; B.Sc. in Computer Science at CESUPA, expected December 2026.
+
+For back-end and data opportunities, API integrations or Python automation projects, contact me on [LinkedIn](https://www.linkedin.com/in/pedro-benitah/) or by [email](mailto:pedrobenitah@gmail.com).
+
+</details>
+
+<details>
+<summary>Outros estudos</summary>
+
+Publiquei os pacotes educacionais `LerEscreverInfo` e `gerarPalavraa` no [PyPI](https://pypi.org/user/Benitas/) em 2022. Os exercícios mais antigos permanecem nos repositórios como registro de aprendizado.
+
+</details>
